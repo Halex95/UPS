@@ -9,7 +9,7 @@
   "keywords": [
     "utcae"
   ],
-  "author": "Guillermo Pizarro",
+  "author": "Halex Illescas",
   "license": "GPL-3.0",
   "dependencies": {
     "body-parser": "^1.19.0",
