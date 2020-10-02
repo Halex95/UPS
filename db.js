@@ -2,7 +2,8 @@ const db = require('mongoose')
 
 db.Promise = global.Promise
 
-async function connect(uri) {
+async function connect() {
+    const uri = "mongodb+srv://ups:ups2020@cluster0.pwmqh.mongodb.net/utups?retryWrites=true&w=majority"
     await db.connect(uri, {
         useNewUrlParser: true,
         useUnifiedTopology: true,

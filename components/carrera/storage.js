@@ -1,3 +1,4 @@
+const { db } = require('mongoose')
 const model = require('./model')
 
 function addCarrera( objeto ) {
